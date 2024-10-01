@@ -1,21 +1,17 @@
-const numeros = [1, 2, 3, 4, 5];
+const numeros = [1,2,3,4,5,6,7,8,9,10,100,101]
 
-const numerosAoQuadrado = numeros.map((numero) => numero * numero);
+const numerosAoQudrado = numeros.map((numero) => numero * numero) 
 
-console.log(numerosAoQuadrado); 
-console.log(numeros)
+console.log(numerosAoQudrado);
 
 
-const produtos = [
-    { id: 1, nome: "Camiseta", preco: 29.99 },
-    { id: 2, nome: "Calça", preco: 59.99 },
-    { id: 3, nome: "Tênis", preco: 99.99 }
-  ];
-  
-  const nomesProdutos = produtos.map((produto) => produto.preco);
-  
-  console.log(nomesProdutos); 
+const tarefas = [
+  { id: 1, aFazer: "Limpar o quarto", concluida: true },
+  { id: 2, aFazer: "Fazer café", concluida: false },
+  { id: 3, aFazer: "Estudar JavaScript", concluida: true }
+]
 
-  // cd metodo
-// cd Array
-// node map.js
+
+const tarefasConcluidas = tarefas.map((tarefa) => tarefa.id)
+
+console.log(tarefasConcluidas);

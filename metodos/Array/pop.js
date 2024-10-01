@@ -1,9 +1,6 @@
-const user1 = ["pips", "pipoca"]
+const numeros = [1,2,3,4,5,6,7,8,9,10,100,101]
 
-const novoUser = user1.pop(user1)
 
-console.log(user1)
+const novoNumero = numeros.pop(numeros)
 
-// cd metodo
-// cd Array
-// node pop.js
+console.log(numeros);

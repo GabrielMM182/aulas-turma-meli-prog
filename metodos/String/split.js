@@ -1,26 +1,10 @@
-const nomeCompleto = "Gabriel morais";
-const nomeArray = nomeCompleto.split(" ");
+const nomeCompleto = "gabriel morais"
+const nome = nomeCompleto.split(" ")
 
-const primeiroNome = nomeArray[0];
-const sobrenome = nomeArray[1];
+console.log(nome);
 
-console.log(primeiroNome); 
-console.log(sobrenome); 
+const primeiroNome = nome[0]
+const sobrenome = nome[1]
 
-// ---------------------------------- // 
-
-
-const tagsInput = "JavaScript, HTML, CSS, Backend";
-const tagsArray = tagsInput.split(" , ");
-
-console.log(tagsArray);
-
-// ---------------------------------- // 
-
-const dataString = "2023-06-15";
-const dataParts = dataString.split("-");
-console.log(dataParts);  
-
-// cd metodo
-// cd String
-// node split.js
+console.log(primeiroNome);
+console.log(sobrenome);

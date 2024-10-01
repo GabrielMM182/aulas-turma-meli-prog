@@ -1,9 +1,5 @@
-const user = ["pips", "pipoca"]
+const numeros = [1,2,3,4,5,6,7,8,9,10,100,101]
 
-user.push("pim")
+numeros.push(102,103)
 
-console.log(user)
-
-// cd metodo
-// cd Array
-// node push.js
+console.log(numeros);
