@@ -1,0 +1,27 @@
+
+.h2-blue {
+    color: blue;
+}
+
+.h2-green {
+    color: green;
+}
+
+.h2-yellow {
+    color: yellow;
+}
+
+.h2-right {
+    text-align: right;
+}
+
+.h2-center {
+    text-align: center;
+}
+.p-justify {
+    text-align: justify;
+}
+
+.p-uppercase {
+    text-transform: uppercase;
+}
